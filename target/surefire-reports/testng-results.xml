@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="130719" started-at="2022-05-11T19:56:28Z" finished-at="2022-05-11T19:58:39Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="130719" started-at="2022-05-11T19:56:28Z" finished-at="2022-05-11T19:58:39Z">
+      <class name="com.patterson.PattersonTest">
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="13623" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="14519" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.13]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="24894" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="24735" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="49271" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OS X 10.11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="49441" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="54086" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="20785" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="19609" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="9787" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="12850" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="9132" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="9489" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="47536" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OS X 10.11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="18742" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="17143" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.13]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="10739" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="13044" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="19978" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="25485" started-at="2022-05-11T15:56:28Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:56:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="360" started-at="2022-05-11T15:56:37Z" finished-at="2022-05-11T15:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="996" started-at="2022-05-11T15:56:37Z" finished-at="2022-05-11T15:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="WhoWeAre" duration-ms="23922" started-at="2022-05-11T15:56:37Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.WhoWeAre(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhoWeAre -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="712" started-at="2022-05-11T15:56:38Z" finished-at="2022-05-11T15:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="PattersonTitle" duration-ms="118543" started-at="2022-05-11T15:56:38Z" data-provider="hardCodedBrowsers" finished-at="2022-05-11T15:58:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.patterson.PattersonTest.PattersonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PattersonTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="693" started-at="2022-05-11T15:56:39Z" finished-at="2022-05-11T15:56:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="954" started-at="2022-05-11T15:56:41Z" finished-at="2022-05-11T15:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="1036" started-at="2022-05-11T15:56:41Z" finished-at="2022-05-11T15:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="704" started-at="2022-05-11T15:56:42Z" finished-at="2022-05-11T15:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="831" started-at="2022-05-11T15:56:42Z" finished-at="2022-05-11T15:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="1836" started-at="2022-05-11T15:56:45Z" finished-at="2022-05-11T15:56:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="796" started-at="2022-05-11T15:56:47Z" finished-at="2022-05-11T15:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="667" started-at="2022-05-11T15:56:48Z" finished-at="2022-05-11T15:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="1009" started-at="2022-05-11T15:56:48Z" finished-at="2022-05-11T15:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="903" started-at="2022-05-11T15:56:49Z" finished-at="2022-05-11T15:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="628" started-at="2022-05-11T15:56:53Z" finished-at="2022-05-11T15:56:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="722" started-at="2022-05-11T15:56:53Z" finished-at="2022-05-11T15:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="719" started-at="2022-05-11T15:56:53Z" finished-at="2022-05-11T15:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="1884" started-at="2022-05-11T15:57:01Z" finished-at="2022-05-11T15:57:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="836" started-at="2022-05-11T15:57:16Z" finished-at="2022-05-11T15:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="647" started-at="2022-05-11T15:57:17Z" finished-at="2022-05-11T15:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="603" started-at="2022-05-11T15:57:17Z" finished-at="2022-05-11T15:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhoWeAre status=SUCCESS method=PattersonTest.WhoWeAre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="432" started-at="2022-05-11T15:57:22Z" finished-at="2022-05-11T15:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.patterson.PattersonTest@880ec60]" name="tearDown" is-config="true" duration-ms="1662" started-at="2022-05-11T15:58:37Z" finished-at="2022-05-11T15:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PattersonTitle status=SUCCESS method=PattersonTest.PattersonTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.patterson.PattersonTest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.patterson.PattersonTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

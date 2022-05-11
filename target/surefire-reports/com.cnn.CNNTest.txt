@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.cnn.CNNTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 346.559 sec <<< FAILURE! - in com.cnn.CNNTest
+CNNSports(com.cnn.CNNTest)  Time elapsed: 3.994 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Latest sports news, videos, interviews and comment - CNN] but found [CNN - Breaking News, Latest News and Videos]
+	at com.cnn.CNNTest.CNNSports(CNNTest.java:136)
+
+CNNSports(com.cnn.CNNTest)  Time elapsed: 153.018 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Latest sports news, videos, interviews and comment - CNN] but found [CNN - Breaking News, Latest News and Videos]
+	at com.cnn.CNNTest.CNNSports(CNNTest.java:136)
+
+CNNSports(com.cnn.CNNTest)  Time elapsed: 321.56 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid message: Due to a previous error, this job has already finished.  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:496:8508:c3ec:e5aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 98.0.4758.82, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e65132c156044c8d8d44bbb8341...}
+Session ID: e65132c156044c8d8d44bbb8341168ca
+	at com.cnn.CNNTest.CNNSports(CNNTest.java:134)
+
+tearDown(com.cnn.CNNTest)  Time elapsed: 322.046 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid message: Due to a previous error, this job has already finished.  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:496:8508:c3ec:e5aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 98.0.4758.82, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e65132c156044c8d8d44bbb8341...}
+Session ID: e65132c156044c8d8d44bbb8341168ca
+	at com.cnn.CNNTest.tearDown(CNNTest.java:111)
+

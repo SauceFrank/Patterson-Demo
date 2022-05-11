@@ -1,0 +1,227 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 295.085 sec <<< FAILURE! - in TestSuite
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 20.79 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Breakfast"}
+  (Session info: MicrosoftEdge=98.0.1108.43)
+  (Driver info: msedgedriver=97.0.1072.55 (ce3bf3364880558d4945082f4ac36e01fe36716e),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: msedge, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, ms:edgeOptions: {debuggerAddress: localhost:58656}, msedge: {msedgedriverVersion: 97.0.1072.55 (ce3bf33648805..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 98.0.1108.43, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 672f4ca92b7a42359578899ce79...}
+Session ID: 672f4ca92b7a42359578899ce7937a56
+*** Element info: {Using=link text, value=Breakfast}
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 5.346 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Breakfast
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'itako4838.prod.miso', ip: 'fe80:0:0:0:4c9:ff39:3302:9a65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/d2/qw7q16_j7yb7yk5r6b8sl0n40000kr/T/rust_mozprofilertzNSs, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=97.0, moz:shutdownTimeout=60000.0, platformVersion=18.0.0, moz:processID=4263.0, browserName=firefox, moz:buildID=20220202182137, javascriptEnabled=true, platformName=mac, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXe763c153
+*** Element info: {Using=link text, value=Breakfast}
+Command duration or timeout: 0 milliseconds
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Breakfast
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'itako4838.prod.miso', ip: 'fe80:0:0:0:4c9:ff39:3302:9a65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/d2/qw7q16_j7yb7yk5r6b8sl0n40000kr/T/rust_mozprofilertzNSs, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=97.0, moz:shutdownTimeout=60000.0, platformVersion=18.0.0, moz:processID=4263.0, browserName=firefox, moz:buildID=20220202182137, javascriptEnabled=true, platformName=mac, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXe763c153
+*** Element info: {Using=link text, value=Breakfast}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: EventFiringWebDriver
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 9.413 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Breakfast
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN10', ip: '10.100.3.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofileYGp9mX, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=95.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5772.0, browserName=firefox, moz:buildID=20211129150630, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXc07686b2
+*** Element info: {Using=link text, value=Breakfast}
+Command duration or timeout: 0 milliseconds
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Breakfast
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN10', ip: '10.100.3.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofileYGp9mX, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=95.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5772.0, browserName=firefox, moz:buildID=20211129150630, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXc07686b2
+*** Element info: {Using=link text, value=Breakfast}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: EventFiringWebDriver
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 14.434 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako223.prod.miso', ip: 'fe80:0:0:0:1c27:7a0f:1762:168f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako223.prod.miso', ip: 'fe80:0:0:0:1c27:7a0f:1762:168f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: unknown
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 17.704 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., automationName: XCUITest, browserName: safari, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: 826cf49b-6916-426e-b51c-b1f..., deviceName: 00008101-001E20280C61001E, javascriptEnabled: true, locationContextEnabled: false, name: ChikBreakfast, networkConnectionEnabled: false, orientation: PORTRAIT, platform: MAC, platformName: MAC, platformVersion: 14.8, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_14_real_us, testobject_device_name: iPhone 12, testobject_device_session_id: 59c475ad-6347-4fa9-bc06-175..., testobject_platform_name: iOS, testobject_project_id: saucelabs-default, testobject_test_name: ChikBreakfast, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 35000, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, udid: 00008101-001E20280C61001E, usedCachedDevice: false, username: SauceFrank, webDriverAgentUrl: http://127.0.0.1:5721, webStorageEnabled: false}
+Session ID: 3914c4f1-179d-417d-afeb-b28e1c5195b4
+*** Element info: {Using=link text, value=Breakfast}
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 17.705 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with link text == Breakfast (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 743 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'WIN-HLEK05V71GA', ip: '10.100.2.233', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXebbba457
+*** Element info: {Using=link text, value=Breakfast}
+Command duration or timeout: 0 milliseconds
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to find element with link text == Breakfast (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 743 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'WIN-HLEK05V71GA', ip: '10.100.2.233', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXebbba457
+*** Element info: {Using=link text, value=Breakfast}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: EventFiringWebDriver
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 18.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Breakfast"}
+  (Session info: chrome=98.0.4758.101)
+  (Driver info: chromedriver=98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15015, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26150, 26160]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15015, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26150, 26160]], deviceName: Samsung_Galaxy_S7_real, name: ChikBreakfast, platformName: Android, suppressKillServer: true, systemPort: 8215, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: ChikBreakfast, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 26, deviceContextId: 7fbb8050-9188-4180-8eac-98b..., deviceManufacturer: samsung, deviceModel: SM-G930F, deviceName: 10.101.64.14:16014, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 10.101.64.14:16014, javascriptEnabled: true, locationContextEnabled: false, name: ChikBreakfast, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, statBarHeight: 72, suppressKillServer: true, systemPort: 8215, takesScreenshot: true, testobject_device: Samsung_Galaxy_S7_real, testobject_device_name: Samsung Galaxy S7, testobject_device_session_id: e90fcd1b-92a0-453c-bb94-79c..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: ChikBreakfast, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34998, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d1be0273-3048-4b9f-b265-7698e4c058c7
+*** Element info: {Using=link text, value=Breakfast}
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 18.657 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '10.119.28.166', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.qzskHVxJb0QX, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0, platformVersion=6.1, moz:processID=1928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX918863df
+Command duration or timeout: 0 milliseconds
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '10.119.28.166', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.qzskHVxJb0QX, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0, platformVersion=6.1, moz:processID=1928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX918863df
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+
+CNNSports(com.cnn.CNNTest)  Time elapsed: 18.765 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Latest sports news, videos, interviews and comment - CNN] but found [CNN - Breaking News, Latest News and Videos]
+	at com.cnn.CNNTest.CNNSports(CNNTest.java:136)
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 50.517 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: 
+An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 12604.5.6.1.1, webStorageEnabled: true, webdriver.remote.sessionid: 570fb64bdf0241ef9708034b97e...}
+Session ID: 570fb64bdf0241ef9708034b97e93dae
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+
+CNNSports(com.cnn.CNNTest)  Time elapsed: 116.22 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a mode="dark" type="expanded" name="bleacher" href="/sport" data-analytics="footer" title="visit the ... section" class="sc-fjdhpX sc-chPdSV gxWYAY">Sports</a> is not clickable at point (494, 637). Other element would receive the click: <rect x="0" y="0" width="100%" height="100%" fill="#fff"></rect>
+  (Session info: chrome=98.0.4758.82)
+  (Driver info: chromedriver=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 98.0.4758.82, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 0dd03b67fa1e49b69106d14ba1e...}
+Session ID: 0dd03b67fa1e49b69106d14ba1e1be6e
+	at com.cnn.CNNTest.CNNSports(CNNTest.java:135)
+
+CNNSports(com.cnn.CNNTest)  Time elapsed: 156.023 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Latest sports news, videos, interviews and comment - CNN] but found [CNN - Breaking News, Latest News and Videos]
+	at com.cnn.CNNTest.CNNSports(CNNTest.java:136)
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 163.809 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Breakfast"}
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/x8/0hf91b3x6n5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.87, webStorageEnabled: true, webdriver.remote.sessionid: 77b7c225769f4c6fb49a25b0c69...}
+Session ID: 77b7c225769f4c6fb49a25b0c6972423
+*** Element info: {Using=link text, value=Breakfast}
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+
+ChikBreakfast(com.chik.ChikTest)  Time elapsed: 197.707 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Breakfast"}
+  (Session info: chrome=98.0.4758.82)
+  (Driver info: chromedriver=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:1c19:e0cb:77d8:b78c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 98.0.4758.82, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d195013ebc574472af713ec80aa...}
+Session ID: d195013ebc574472af713ec80aa4da37
+*** Element info: {Using=link text, value=Breakfast}
+	at com.chik.ChikTest.ChikBreakfast(ChikTest.java:135)
+
